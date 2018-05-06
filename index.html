@@ -1,17 +1,23 @@
 <!DOCTYPE html>
-<html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
-    <script src="script.js"></script>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
+    <h1>Let's Create an ID card!</h1>
+    First Name: <br> <input id="FirstName"><br> Last Name: <br> <input id="LastName"><br> Age: <br> <input id="Age"><br> Phone Number: <br> <input id="PhoneNumber"><br> Address: <br> <input id="Address"><br>
+    <div id="idCard">
+        <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
+        <p id="postFullName"></p>
+        <p id="postAge"></p>
+        <p id="postPhoneNumber"></p>
+        <p id="postAddress"></p>
+    </div>
+    <button onclick="idCard()">Get ID Card!</button>
+    <script src="script.js"></script>
 </body>
 
 </html>
