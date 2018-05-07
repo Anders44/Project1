@@ -8,4 +8,43 @@ img {
     border: 5px solid black;
     height: 14em;
     width: 25em;
+    background-color: #EDE019;
+    margin: auto;
+    font-family: helvetica;
+}
+
+h1 {
+    text-align: center;
+}
+
+html {
+    background-color: #B1CBE3;
+}
+
+#info {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-family: system-ui;
+}
+
+#postFullName {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+#postAge {
+    padding-left: 12px;
+    font-weight: bolder;
+}
+
+#postPhoneNumber {
+    padding-left: 12px;
+    font-weight: bolder;
+}
+
+#postAddress {
+    padding-left: 12px;
+    font-weight: bolder;
 }

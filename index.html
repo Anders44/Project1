@@ -7,16 +7,26 @@
 </head>
 
 <body>
+
     <h1>Let's Create an ID card!</h1>
-    First Name: <br> <input id="FirstName"><br> Last Name: <br> <input id="LastName"><br> Age: <br> <input id="Age"><br> Phone Number: <br> <input id="PhoneNumber"><br> Address: <br> <input id="Address"><br>
+
+    <div id="info">
+        First Name: <br> <input id="FirstName"><br> Last Name: <br> <input id="LastName"><br> Age: <br> <input id="Age"><br> Phone Number: <br> <input id="PhoneNumber"><br> Address: <br> <input id="Address"><br>
+        <br>
+        <button id="button" onclick="idCard()">Get ID Card!</button><br>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
     <div id="idCard">
         <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
         <p id="postFullName"></p>
+        <br>
         <p id="postAge"></p>
         <p id="postPhoneNumber"></p>
         <p id="postAddress"></p>
     </div>
-    <button onclick="idCard()">Get ID Card!</button>
     <script src="script.js"></script>
 </body>
 
